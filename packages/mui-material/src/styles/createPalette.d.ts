@@ -79,11 +79,11 @@ export interface PaletteAugmentColorOptions {
 }
 
 export interface Palette {
-  inherit: PaletteColor;
   common: CommonColors;
   mode: PaletteMode;
   contrastThreshold: number;
   tonalOffset: PaletteTonalOffset;
+  inherit: PaletteColor;
   primary: PaletteColor;
   secondary: PaletteColor;
   error: PaletteColor;
